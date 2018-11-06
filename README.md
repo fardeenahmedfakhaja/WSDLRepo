@@ -6,28 +6,28 @@ WSDL stands for Web Service Descriptive Language. It is an XML format which desc
 ## Basic skeleton of a WSDL file:
 
 ```  
-<definitions>
-	definition of wsdl  
-	includes namespaces  
+** <definitions>**
+	#definition of wsdl  
+	#includes namespaces  
    <types>  
-      import Schema definition being used  
+      #import Schema definition being used  
    </types>  
 
    <message>  
-      Message Structure  
+      #Message Structure  
    </message>  
 
    <portType>
       <operation>
-         Operation being performed along with parameters 
+         #Operation being performed along with parameters 
       </operation>
    </portType>
 
    <binding>
-      binding definiton
+      #binding definiton
    </binding>
 
    <service>
-      service definition
+      #service definition
    </service>
 </definitions>
