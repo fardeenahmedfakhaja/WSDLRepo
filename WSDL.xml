@@ -1,0 +1,25 @@
+<definitions>
+	definition of wsdl
+	includes namespaces
+   <types>
+      import Schema definition being used
+   </types>
+
+   <message>
+      Message Structure
+   </message>
+
+   <portType>
+      <operation>
+         Operation being performed along with parameters 
+      </operation>
+   </portType>
+
+   <binding>
+      binding definiton
+   </binding>
+
+   <service>
+      service definition
+   </service>
+</definitions>
